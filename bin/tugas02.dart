@@ -7,7 +7,7 @@ void main(){
       print('genap');
     }
   }else{
-    print('nilai tidak boleh lebih dari 100');
+    print('nilai tidak boleh lebih dari 100 yaa');
   }
 
 }
