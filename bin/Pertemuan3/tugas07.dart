@@ -1,0 +1,27 @@
+class Persegi
+{
+  var p = 20;
+  var l = 40;
+  void Luas()
+  {
+    var m = p*l;
+    print(m);
+  }
+}
+
+class Balok extends Persegi
+{
+  var p1 = 40;
+  var l1 = 160;
+  void Luas()
+  {
+    var m = this.p1*this.l1;
+    print(m);
+  }
+}
+
+void main()
+{
+  var k = Balok();
+  k.Luas();
+}
